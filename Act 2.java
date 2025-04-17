@@ -1,4 +1,4 @@
-// Base class Person
+
 class Person {
     String name;
     int id;
@@ -14,7 +14,7 @@ class Person {
     }
 }
 
-// Subclass Student
+
 class Student extends Person {
     String gradeLevel;
 
@@ -30,7 +30,7 @@ class Student extends Person {
     }
 }
 
-// Subclass Teacher
+
 class Teacher extends Person {
     String subject;
 
@@ -46,7 +46,7 @@ class Teacher extends Person {
     }
 }
 
-// Subclass Staff
+
 class Staff extends Person {
     String department;
 
@@ -62,7 +62,7 @@ class Staff extends Person {
     }
 }
 
-// Main class
+
 public class SchoolTest {
     public static void main(String[] args) {
         Student student = new Student("Alice", 101, "Grade 10");
